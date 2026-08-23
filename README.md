@@ -1,47 +1,6 @@
 # LiveSplit.TransparentBackground
 
-[Português](#português) | [English](#english)
-
-## Português
-
-Um componente leve para LiveSplit que deixa transparente o fundo da janela do cronômetro. Foi criado para quem utiliza apenas um monitor ou não quer configurar Chroma Key no programa de gravação ou transmissão.
-
-### Instalação
-
-1. Baixe `LiveSplit.TransparentBackground.dll` na [Release mais recente](https://github.com/plxxxq/LiveSplit.TransparentBackground/releases/latest).
-2. Feche o LiveSplit.
-3. Abra a pasta onde o LiveSplit está instalado.
-4. Copie `LiveSplit.TransparentBackground.dll` para:
-
-   ```text
-   LiveSplit\Components
-   ```
-
-5. Abra o LiveSplit novamente. A DLL funciona automaticamente e não precisa ser adicionada ao layout.
-
-### Configuração obrigatória
-
-Clique com o botão direito no LiveSplit, abra **Edit Layout > Layout Settings** e deixe a cor de fundo em preto puro:
-
-```text
-#000000
-```
-
-Se aparecerem as opções **Background Color** e **Background Color 2**, deixe as duas em preto. O preto ficará transparente; qualquer outra cor continuará visível.
-
-### Movendo a janela
-
-Depois que o fundo ficar transparente, a janela só poderá ser movimentada arrastando diretamente por cima de algum texto ou número do LiveSplit.
-
-### Desinstalação
-
-Feche o LiveSplit e apague `LiveSplit.TransparentBackground.dll` da pasta `Components`.
-
-### Licença
-
-Distribuído sob a [Licença MIT](LICENSE).
-
----
+[English](#english) | [Português](#português)
 
 ## English
 
@@ -81,3 +40,44 @@ Close LiveSplit and delete `LiveSplit.TransparentBackground.dll` from the `Compo
 ### License
 
 Distributed under the [MIT License](LICENSE).
+
+---
+
+## Português
+
+Um componente leve para LiveSplit que deixa transparente o fundo da janela do cronômetro. Foi criado para quem utiliza apenas um monitor ou não quer configurar Chroma Key no programa de gravação ou transmissão.
+
+### Instalação
+
+1. Baixe `LiveSplit.TransparentBackground.dll` na [Release mais recente](https://github.com/plxxxq/LiveSplit.TransparentBackground/releases/latest).
+2. Feche o LiveSplit.
+3. Abra a pasta onde o LiveSplit está instalado.
+4. Copie `LiveSplit.TransparentBackground.dll` para:
+
+   ```text
+   LiveSplit\Components
+   ```
+
+5. Abra o LiveSplit novamente. A DLL funciona automaticamente e não precisa ser adicionada ao layout.
+
+### Configuração obrigatória
+
+Clique com o botão direito no LiveSplit, abra **Edit Layout > Layout Settings** e deixe a cor de fundo em preto puro:
+
+```text
+#000000
+```
+
+Se aparecerem as opções **Background Color** e **Background Color 2**, deixe as duas em preto. O preto ficará transparente; qualquer outra cor continuará visível.
+
+### Movendo a janela
+
+Depois que o fundo ficar transparente, a janela só poderá ser movimentada arrastando diretamente por cima de algum texto ou número do LiveSplit.
+
+### Desinstalação
+
+Feche o LiveSplit e apague `LiveSplit.TransparentBackground.dll` da pasta `Components`.
+
+### Licença
+
+Distribuído sob a [Licença MIT](LICENSE).
